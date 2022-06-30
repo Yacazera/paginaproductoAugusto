@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #header-img{
+    width: 250px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  nav {
+    font-weight: 400;
+  }
+
+
+  header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ECE8D1;
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+  #container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 150px auto;
+    
+  }
+
+h1{
+  text-align: center;
+}
+
+#caracteristicas{
+  line-height: 1.5rem;
+}
+
+
+  ul li {
+    padding: 15px;
+    display: inline;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #video-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #video-container > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+
+  #precios {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  
+
+  @media (max-width: 800px) {
+    #precios {
+      flex-direction: column;
+    }
+    .producto {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  img{
+    width: 140px;
+  }
+
+#ofertas {
+  text-align: center;
+  margin-top: 20px;
+}
+  
+#ofertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#ofertas > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#ofertas input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#ofertas input[type='submit'] {
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#ofertas input[type='submit']:hover{
+  background: red;
+}
+
+  
